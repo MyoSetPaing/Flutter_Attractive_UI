@@ -19,9 +19,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: EdgeInsets.only(top: 50.0, right: 20.0, left: 20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        margin: EdgeInsets.only(top: 30.0, right: 20.0, left: 20.0),
+        child: ListView(
           children: <Widget>[
             headingRow(),
             SizedBox(
@@ -69,7 +68,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget bottomNavigationBarWidget() {
     return Container(
-      margin: EdgeInsets.only(bottom: 30.0),
+      margin: EdgeInsets.only(bottom: 20.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[

@@ -30,8 +30,7 @@ class _NextPageState extends State<NextPage> {
               child: Container(
                 padding: EdgeInsets.only(
                     left: 40.0, top: 40.0, right: 10.0, bottom: 30.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                child: ListView(
                   children: <Widget>[
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
